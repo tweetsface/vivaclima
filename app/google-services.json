@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "819718637068",
+    "project_id": "vivaclima-9aa21",
+    "storage_bucket": "vivaclima-9aa21.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:819718637068:android:80a2e39ebaf53d322d1029",
+        "android_client_info": {
+          "package_name": "com.example.vivaclima"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "819718637068-72sc5deus3pou9at3igjjckmbm9taooc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDy0oazuRj7y5qmKL0QB-rOTub7BM26GTM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "819718637068-72sc5deus3pou9at3igjjckmbm9taooc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
