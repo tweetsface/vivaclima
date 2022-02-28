@@ -1,9 +1,8 @@
-package com.example.vivaclima.viewmodel
+package com.example.vivaclima.ui.view.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import com.example.vivaclima.repository.WheatherRepository
-import kotlin.contracts.Returns
 
 class WheatherViewModelFactory (private val wheatherRepository: WheatherRepository):ViewModelProvider.Factory{
     override fun <T : ViewModel?> create(modelClass: Class<T>): T {
