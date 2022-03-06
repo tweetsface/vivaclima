@@ -4,21 +4,19 @@
     android:id="@+id/card_view"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="10dp"
     card_view:cardBackgroundColor="@color/yellow_200"
-    card_view:cardCornerRadius="20dp"
-    card_view:cardElevation="6dp"
-    card_view:contentPadding="4dp">
+    card_view:cardCornerRadius="5dp"
+    >
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="170dp"
+        android:layout_height="wrap_content"
         android:padding="16dp">
 
         <ImageView
             android:id="@+id/ivtiempo"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
@@ -26,27 +24,79 @@
             android:layout_marginRight="16dp"></ImageView>
 
         <TextView
+            android:id="@+id/ivfecha"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="110dp"
+            android:layout_marginRight="16dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textAlignment="center"></TextView>
+
+
+        <TextView
             android:id="@+id/ivtemperatura"
-            android:layout_width="150dp"
-            android:layout_height="50dp"
-            android:layout_marginLeft="130dp"
-            android:layout_marginTop="16dp">
+            android:layout_width="190dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="40dp"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="50sp"
+            android:textStyle="bold">
 
         </TextView>
 
         <TextView
             android:id="@+id/ivdescripcion"
-            android:layout_width="150dp"
+            android:layout_width="190dp"
             android:layout_height="30dp"
-            android:layout_marginLeft="130dp"
-            android:layout_marginTop="70dp"></TextView>
+            android:layout_marginLeft="140dp"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/ivciudad"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="16dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textAlignment="center"></TextView>
 
         <TextView
             android:id="@+id/ivmaxmin"
-            android:layout_width="150dp"
+            android:layout_width="190dp"
             android:layout_height="30dp"
-            android:layout_marginLeft="130dp"
-            android:layout_marginTop="105dp"></TextView>
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="110dp"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/ivday"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="23dp"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textStyle="bold">
+
+        </TextView>
+
 
 
     </RelativeLayout>
